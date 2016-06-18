@@ -1,0 +1,30 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position:fixed;
+    overflow: hidden;
+    background-color: royalblue;
+    top: 0;
+    left:0;
+    width:100%;
+}
+
+li {
+    float: left;
+}
+
+/*#title{
+    font-size: 1.5em;
+}*/
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a.b:hover {
+    background-color: cornflowerblue;
+}
